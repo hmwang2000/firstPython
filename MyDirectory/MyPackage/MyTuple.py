@@ -23,4 +23,4 @@ print("Tuple2=",tuple2, "Len=",len(tuple2))
 for x in tuple2:
     print(x)
 
-for x in tuple2: print(x)
+for x in tuple2: print(x, end=";")
