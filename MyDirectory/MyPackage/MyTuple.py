@@ -18,9 +18,25 @@ print(tuple1*2)
 
 list1= ['Google', 'Microsoft', 'Oracle', 'Amazon']
 tuple2=tuple(list1)
-print("Tuple2=",tuple2, "Len=",len(tuple2))
+print("List1=",list1, "Length=",len(list1))
+
+print("Tuple2=",tuple2, "Length=",len(tuple2))
 
 for x in tuple2:
     print(x)
 
 for x in tuple2: print(x, end=";")
+
+print()
+
+print("tuple2[1]=",tuple2[1])
+print("tuple2[-1]=",tuple2[-1])
+print("tuple2[2:]=",tuple2[2:])
+
+print(type(tuple2))
+
+tup1 = (50)
+print(type(tup1))  # 不加逗号，类型为整型
+
+tup1 = (50,)
+print(type(tup1))  # 加上逗号，类型为元组
