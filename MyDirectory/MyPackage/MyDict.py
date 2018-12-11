@@ -52,3 +52,12 @@ print("Value : %s" %  dict.items())
 
 dict.popitem()
 print(list(dict.values()))
+
+#在字典中遍历时，关键字和对应的值可以使用 items() 方法同时解读出来
+for k, v in dict.items():
+    print(k, v)
+
+#字典推导可以用来创建任意键和值的表达式词典
+dict= {x: x**2 for x in (2, 4, 6)}
+for k, v in dict.items():
+    print(k, v)

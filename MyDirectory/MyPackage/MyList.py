@@ -14,6 +14,8 @@ print ("原始列表 : ", list1)
 del list1[2]
 print ("删除第三个元素 : ", list1)
 
+list3=[3*x for x in list2]
+print ("列表推导式 : ", list3)
 
 a = ['a', 'b', 'c']
 n = [1, 2, 3]
