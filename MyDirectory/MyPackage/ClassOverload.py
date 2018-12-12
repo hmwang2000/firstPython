@@ -54,3 +54,5 @@ print(v1)
 v2 = Vector(5, -2)
 print(v2)
 print(v1 + v2)
+
+print(vars(v1))
